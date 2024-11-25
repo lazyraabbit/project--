@@ -3,12 +3,13 @@ import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.c
 
 // Firebase Config
 const firebaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-    appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyChcjPY7mrfSPUHFMiLK3-BCqPDnyN7U_I",
+  authDomain: "project-60794.firebaseapp.com",
+  projectId: "project-60794",
+  storageBucket: "project-60794.firebasestorage.app",
+  messagingSenderId: "443803014572",
+  appId: "1:443803014572:web:9e9ca774ac69a7f30e5609",
+  measurementId: "G-J8QL3Y4CLW"
 };
 
 // Initialize Firebase
