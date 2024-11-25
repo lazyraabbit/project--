@@ -3,24 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unsent Project</title>
+    <title>অব্যক্ত</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>The Unsent Project - Bangladesh</h1>
-        <p>Share your unsent messages anonymously.</p>
-    </header>
-    <main>
+    <div class="container">
+        <h1>অব্যক্ত</h1>
         <form id="messageForm">
-            <textarea id="messageInput" placeholder="Write your message here..." required></textarea>
-            <button type="submit">Send</button>
+            <label for="recipientName">To Whom:</label>
+            <input type="text" id="recipientName" required placeholder="Enter recipient's name">
+            <label for="messageInput">Your Message:</label>
+            <textarea id="messageInput" required placeholder="Enter your message"></textarea>
+            <button type="submit">Submit Message</button>
         </form>
-        <section id="messageGallery">
-            <h2>Messages</h2>
-            <div id="messages"></div>
-        </section>
-    </main>
-    <script src="script.js" type="module"></script>
+        <p><a href="messages.html">View All Messages</a></p>
+    </div>
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
