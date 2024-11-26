@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unsent Project - Home</title>
+    <title>Submit - Unsent Project</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,8 +43,8 @@
 </head>
 <body>
     <header>
-        <h1>Unsent Project</h1>
-        <p>Share the messages you never sent.</p>
+        <h1>Submit Your Message</h1>
+        <p>We value your anonymous submissions.</p>
     </header>
     <nav>
         <a href="index.html">Home</a>
@@ -52,9 +52,12 @@
         <a href="submit.html">Submit</a>
     </nav>
     <main style="padding: 2rem; text-align: center;">
-        <h2>Welcome to the Unsent Project</h2>
-        <p>This platform allows you to share your unsent messages anonymously.</p>
-        <p><a href="submit.html" style="color: #4CAF50; text-decoration: none; font-weight: bold;">Submit Your Message</a></p>
+        <h2>Submit an Unsent Message</h2>
+        <form action="#" method="post" style="max-width: 400px; margin: auto; text-align: left;">
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="6" style="width: 100%; margin-bottom: 1rem;"></textarea><br>
+            <button type="submit" style="background-color: #4CAF50; color: white; padding: 0.5rem 1rem; border: none; cursor: pointer;">Submit</button>
+        </form>
     </main>
     <footer>
         <p>&copy; 2024 Unsent Project. All rights reserved.</p>
